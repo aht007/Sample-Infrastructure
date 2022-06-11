@@ -36,4 +36,4 @@
     backup: yes
 
 - name: "Start pm2"
-  shell: pm2 start ~/web/index.js --name -f
+  shell: pm2 start ~/web/index.js -f
